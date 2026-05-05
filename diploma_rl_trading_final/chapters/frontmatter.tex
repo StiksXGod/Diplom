@@ -1,0 +1,224 @@
+\newcommand{\maiheader}{
+\begin{center}
+\textbf{МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ}\\
+\textbf{РОССИЙСКОЙ ФЕДЕРАЦИИ}\\[0.4em]
+\textbf{ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ}\\
+\textbf{УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ}\\
+\textbf{«МОСКОВСКИЙ АВИАЦИОННЫЙ ИНСТИТУТ}\\
+\textbf{(национальный исследовательский университет)»}
+\end{center}
+}
+
+\newcommand{\fieldline}[2]{\underline{\makebox[#1][l]{#2}}}
+
+\thispagestyle{empty}
+\small
+\maiheader
+
+\vspace{1.0em}
+\noindent\textbf{Институт (Филиал) №8 «Компьютерные науки и прикладная математика»}\\
+\textbf{Кафедра 806}\\
+\textbf{Группа М8О-403Б-22}\\
+\textbf{Направление подготовки 01.03.02 Прикладная математика и информатика}\\[0.3em]
+\textbf{Профиль Информатика}\\[0.3em]
+\textbf{Квалификация бакалавр}\\
+\rule{2.5cm}{0.4pt}
+
+\vspace{1.4em}
+\begin{flushright}
+\begin{tabular}{@{}lll@{}}
+\textbf{УТВЕРЖДАЮ} & & \\
+Заведующий кафедрой №806 & \fieldline{2.4cm}{} & С.\,С. Крылов \\
+& {\scriptsize (№ каф.) \hspace{2.0cm} (подпись) \hspace{1.0cm} (инициалы, фамилия)} & \\
+\fieldline{0.8cm}{} \hspace{0.3em} \fieldline{2.0cm}{} 2026 г. & &
+\end{tabular}
+\end{flushright}
+
+\begin{center}
+\textbf{ЗАДАНИЕ}\\
+\textbf{на выпускную квалификационную работу}\\
+\textbf{бакалавра}
+\end{center}
+
+\vspace{0.6em}
+\noindent
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\textbf{Обучающийся} & \fieldline{10.5cm}{Мудров Павел Федорович} \\
+& {\scriptsize (фамилия, имя, отчество полностью)} \\
+\textbf{Руководитель} & \fieldline{10.5cm}{Ляпина Светлана Юрьевна} \\
+& {\scriptsize (фамилия, имя, отчество полностью)} \\
+\multicolumn{2}{@{}l@{}}{\fieldline{15.2cm}{профессор}} \\
+\multicolumn{2}{@{}l@{}}{{\scriptsize ученая степень, ученое звание, должность и место работы}}
+\end{tabularx}
+
+\vspace{0.8em}
+\noindent\textbf{1. Наименование темы}\hspace{0.8em}
+«Применение методов обучения с подкреплением (Reinforcement Learning, RL) для прогнозирования и оптимизации биржевых котировок»
+
+\vspace{0.8em}
+\noindent\textbf{2. Срок сдачи обучающимся законченной работы}\hspace{0.8em}\fieldline{2.3cm}{15.05.2026}
+
+\vspace{0.8em}
+\noindent\textbf{3. Задание и исходные данные к работе}\\
+Разработать единый экспериментальный стенд сравнения baseline-стратегий, статистических подходов, моделей машинного обучения и агентов обучения с подкреплением на биржевых котировках. Реализовать программный комплекс на Python с загрузкой данных, формированием признаков, обучением моделей, расчетом метрик и визуализацией результатов.
+
+\vspace{0.3em}
+\noindent\textbf{Перечень иллюстративно-графических материалов *при наличии:}
+
+\vspace{0.3em}
+\begin{center}
+\begin{tabularx}{0.92\textwidth}{|c|X|c|}
+\hline
+№ п/п & Наименование & Количество листов \\
+\hline
+\rule{0pt}{1.4em} & & \\
+\hline
+\rule{0pt}{1.4em} & & \\
+\hline
+\rule{0pt}{1.4em} & & \\
+\hline
+\end{tabularx}
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\small
+
+\noindent\textbf{4. Перечень подлежащих разработке разделов и этапы выполнения работы}
+
+\vspace{0.4em}
+\begin{center}
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{0.92\textwidth}{|c|X|>{\centering\arraybackslash}p{2.3cm}|>{\centering\arraybackslash}p{2.6cm}|p{2.7cm}|}
+\hline
+№ п/п & Наименование раздела или этапа & Трудоемкость в \% от полной трудоемкости квалификационной работы & Срок выполнения & Примечание \\
+\hline
+1 & Анализ предметной области, аналогов и постановка исследовательской проблемы & 15 & 15.02.2026 & Выполнено на основе анализа литературы \\
+\hline
+2 & Проектирование экспериментального стенда и постановка задач ML и RL & 20 & 01.03.2026 & Согласовано с руководителем \\
+\hline
+3 & Реализация загрузки данных, генерации признаков, baseline-стратегий и ML-моделей & 25 & 20.03.2026 & Реализовано на языке Python \\
+\hline
+4 & Реализация RL-среды, обучение DQN и PPO, экспериментальное моделирование & 25 & 10.04.2026 & Проведено тестирование \\
+\hline
+5 & Подготовка выводов, оформление текста ВКР, рисунков и приложений & 15 & 15.05.2026 & Итоговое оформление работы \\
+\hline
+\end{tabularx}
+\end{center}
+
+\vspace{0.3em}
+\noindent\textbf{5. Исходные материалы и пособия}
+\begin{enumerate}[leftmargin=1.3cm,itemsep=0pt,topsep=0pt,label=\arabic*.]
+\item Sutton R.\,S., Barto A.\,G. \textit{Reinforcement Learning: An Introduction}.
+\item Hyndman R.\,J., Athanasopoulos G. \textit{Forecasting: Principles and Practice}.
+\item Mnih V. et al. \textit{Human-level Control through Deep Reinforcement Learning}.
+\item Schulman J. et al. \textit{Proximal Policy Optimization Algorithms}.
+\item Документация \textit{stable-baselines3}, \textit{Gymnasium}, \textit{pandas}, \textit{scikit-learn}, \textit{yfinance}.
+\end{enumerate}
+
+\vspace{0.2em}
+\noindent\textbf{6. Дата выдачи задания}\hspace{0.8em}\fieldline{2.3cm}{11.02.2026}
+
+\vspace{0.6em}
+\begin{tabularx}{\textwidth}{@{}X X@{}}
+Руководитель \fieldline{4.3cm}{} & Задание принял к исполнению \fieldline{4.3cm}{} \\
+{\scriptsize (подпись)} & {\scriptsize (подпись)}
+\end{tabularx}
+
+\newpage
+\thispagestyle{empty}
+\small
+\maiheader
+
+\vspace{1.0em}
+\noindent\textbf{Институт (Филиал) №8 «Компьютерные науки и прикладная математика»}\\
+\textbf{Кафедра 806}\\
+\textbf{Группа М8О-403Б-22}\\
+\textbf{Направление подготовки 01.03.02 Прикладная математика и информатика}\\[0.3em]
+\textbf{Профиль Информатика}\\[0.3em]
+\textbf{Квалификация бакалавр}
+
+\vspace{1.8em}
+\begin{center}
+\textbf{ВЫПУСКНАЯ КВАЛИФИКАЦИОННАЯ РАБОТА}\\
+\textbf{БАКАЛАВРА}
+\end{center}
+
+\vspace{0.8em}
+\noindent
+На тему: «Применение методов обучения с подкреплением (Reinforcement Learning, RL) для прогнозирования и оптимизации биржевых котировок»
+
+\vspace{2.2em}
+\noindent
+Автор ВКРБ \fieldline{4.0cm}{} Мудров Павел Федорович\\
+\hspace*{3.6cm}(\fieldline{1.5cm}{}) \hspace{3.0cm}{\scriptsize (фамилия, имя, отчество полностью)}\\[0.7em]
+Руководитель \fieldline{3.2cm}{} Ляпина Светлана Юрьевна\\
+\hspace*{3.7cm}(\fieldline{1.5cm}{}) \hspace{2.9cm}{\scriptsize (фамилия, имя, отчество полностью)}\\[0.7em]
+Консультант \fieldline{3.1cm}{} \fieldline{6.2cm}{}\\
+\hspace*{3.7cm}(\fieldline{1.5cm}{}) \hspace{2.9cm}{\scriptsize (фамилия, имя, отчество полностью)}\\[0.7em]
+Консультант \fieldline{3.1cm}{} \fieldline{6.2cm}{}\\
+\hspace*{3.7cm}(\fieldline{1.5cm}{}) \hspace{2.9cm}{\scriptsize (фамилия, имя, отчество полностью)}\\[0.7em]
+Рецензент \fieldline{3.4cm}{} \fieldline{6.2cm}{}\\
+\hspace*{3.7cm}(\fieldline{1.5cm}{}) \hspace{2.9cm}{\scriptsize (фамилия, имя, отчество полностью)}
+
+\vspace{0.8em}
+\noindent
+\textbf{К защите допустить}\\
+Заведующий кафедрой № 806 \hspace{0.8em} Крылов Сергей Сергеевич \hspace{0.8em} (\fieldline{1.6cm}{})\\
+\hspace*{5.0cm}{\scriptsize (№ каф.) \hspace{3.2cm} (фамилия, имя, отчество полностью)}\\
+\fieldline{0.8cm}{} \hspace{0.3em} \fieldline{2.3cm}{} 2026 г.
+
+\vspace{1.0em}
+\begin{center}
+Москва 2026
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\normalsize
+\begin{center}
+\textbf{СПИСОК ИСПОЛНИТЕЛЕЙ}
+\end{center}
+
+\noindent
+В выполнении выпускной квалификационной работы принимали участие:
+
+\vspace{0.8em}
+\noindent
+Обучающийся --- Мудров Павел Федорович
+
+\noindent
+Руководитель --- Ляпина Светлана Юрьевна, профессор
+
+\noindent
+Консультант --- TODO: заполнить сведения при наличии
+
+\noindent
+Рецензент --- TODO: заполнить сведения при наличии
+
+\newpage
+\thispagestyle{empty}
+\normalsize
+\begin{center}
+\textbf{РЕФЕРАТ}
+\end{center}
+
+\noindent
+Выпускная квалификационная работа бакалавра состоит из 57 страниц, 28 использованных источников, 7 таблиц, 5 рисунков и одного приложения.
+
+\vspace{0.5em}
+\noindent
+\textbf{ОБУЧЕНИЕ С ПОДКРЕПЛЕНИЕМ, БИРЖЕВЫЕ КОТИРОВКИ, АЛГОРИТМИЧЕСКАЯ ТОРГОВЛЯ, DQN, PPO, BASELINE-СТРАТЕГИИ, МАШИННОЕ ОБУЧЕНИЕ, ФИНАНСОВЫЕ МЕТРИКИ, EQUITY CURVE, MAX DRAWDOWN}
+
+\vspace{0.5em}
+\noindent
+Работа посвящена исследованию применения методов обучения с подкреплением для прогнозирования и оптимизации торговых решений на биржевых котировках. В отличие от подходов, ориентированных исключительно на прогноз будущей цены, в работе рассматривается задача последовательного выбора действий \textit{buy}, \textit{sell} и \textit{hold} с учетом состояния рынка и динамики портфеля.
+
+\noindent
+В теоретической части рассмотрены особенности финансовых временных рядов, классические статистические методы, модели машинного обучения, нейросетевые подходы и современные RL-алгоритмы. Особое внимание уделено сравнению аналогов и формулированию проблемы, состоящей в том, что высокая точность прогноза не гарантирует практической прибыльности стратегии. На этой основе обоснована необходимость построения единого экспериментального стенда, в котором baseline-стратегии, ML-модели и RL-агенты оцениваются на одних и тех же данных и по единому набору метрик.
+
+\noindent
+В практической части описан программный проект на Python, включающий загрузку данных через \textit{yfinance}, генерацию признаков на основе OHLCV-рядов, реализацию стратегий \textit{Buy \& Hold} и \textit{Moving Average Crossover}, обучение моделей \textit{Logistic Regression}, \textit{Random Forest}, \textit{Gradient Boosting}, а также обучение агентов \textit{DQN} и \textit{PPO} в среде \textit{Gymnasium}. Для оценки результатов используются как ML-метрики, так и финансовые показатели: доходность, волатильность, коэффициент Шарпа, максимальная просадка и устойчивость стратегии.
+
+\noindent
+Результаты экспериментального моделирования показывают, что RL-подходы целесообразно рассматривать как инструмент оптимизации последовательных торговых решений, однако их качество существенно зависит от функции вознаграждения, набора признаков и рыночного режима. В условиях исследуемого стенда PPO-агент обеспечивает более устойчивый риск-скорректированный результат по сравнению с рядом альтернатив, тогда как стратегия \textit{Buy \& Hold} сохраняет преимущество по абсолютной доходности на выраженном восходящем рынке.

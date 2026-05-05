@@ -1,0 +1,2316 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.3.2)  5 MAY 2026 07:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen141
+)
+\c@part=\count192
+\c@section=\count193
+\c@subsection=\count194
+\c@subsubsection=\count195
+\c@paragraph=\count196
+\c@subparagraph=\count197
+\c@figure=\count198
+\c@table=\count199
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen142
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count266
+\l__pdf_internal_box=\box52
+\g__pdf_backend_annotation_int=\count267
+\g__pdf_backend_link_int=\count268
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count269
+\l__fontspec_language_int=\count270
+\l__fontspec_strnum_int=\count271
+\l__fontspec_tmp_int=\count272
+\l__fontspec_tmpa_int=\count273
+\l__fontspec_tmpb_int=\count274
+\l__fontspec_tmpc_int=\count275
+\l__fontspec_em_int=\count276
+\l__fontspec_emdef_int=\count277
+\l__fontspec_strong_int=\count278
+\l__fontspec_strongdef_int=\count279
+\l__fontspec_tmpa_dim=\dimen143
+\l__fontspec_tmpb_dim=\dimen144
+\l__fontspec_tmpc_dim=\dimen145
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial/OT:script=latn;language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'CourierNew(0)' created for font 'Courier
+(fontspec)             New' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Courier
+(fontspec)             New/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Courier
+(fontspec)             New/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Courier
+(fontspec)             New/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Courier
+(fontspec)             New/BI/OT:script=latn;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;"
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2025/01/31 v2.4 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count280
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+\l_xpg_alias_keyvals_int=\count281
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-russian.ldf
+File: gloss-russian.ldf polyglossia: module for Russian
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/xpg-cyrillicnumbers.s
+ty
+Package: xpg-cyrillicnumbers 2019/11/15 v0.2 Formatting of Cyrillic alphabetic 
+numbers
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2022/06/21 Babel common definitions for shorthands
+ Taken verbatim from babel files (2022/06/06 v3.76)
+)
+Package babel Info: Making " an active character on input line 115.
+)
+
+Package polyglossia Info: Default language is russian
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count285
+\float@exts=\toks19
+\float@box=\box53
+\@float@everytoks=\toks20
+\@floatcapt=\box54
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen156
+\captionmargin=\dimen157
+\caption@leftmargin=\dimen158
+\caption@rightmargin=\dimen159
+\caption@width=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
+Package caption Info: float package is loaded.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box55
+\extrarowheight=\dimen165
+\NC@list=\toks21
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box56
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count288
+\LTcapwidth=\dimen166
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@gbox=\box61
+\LT@cols=\count289
+\LT@rows=\count290
+\c@LT@tables=\count291
+\c@LT@chunks=\count292
+\LT@p@ftn=\toks22
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen167
+\TX@old@table=\dimen168
+\TX@old@col=\dimen169
+\TX@target=\dimen170
+\TX@delta=\dimen171
+\TX@cols=\count293
+\TX@ftn=\toks23
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count294
+\@cmidlb=\count295
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count296
+\@lastruleclass=\count297
+\@thisrulewidth=\dimen184
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip57
+\multirow@cntb=\count298
+\multirow@dima=\skip58
+\bigstrutjot=\dimen185
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen186
+\enit@toks=\toks24
+\enit@inbox=\box62
+\enit@count@id=\count299
+\enitdp@description=\count300
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen187
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen188
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count301
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count302
+\leftroot@=\count303
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count304
+\DOTSCASE@=\count305
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box63
+\strutbox@=\box64
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen189
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count306
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count307
+\dotsspace@=\muskip17
+\c@parentequation=\count308
+\dspbrk@lvl=\count309
+\tag@help=\toks26
+\row@=\count310
+\column@=\count311
+\maxfields@=\count312
+\andhelp@=\toks27
+\eqnshift@=\dimen190
+\alignsep@=\dimen191
+\tagshift@=\dimen192
+\tagwidth@=\dimen193
+\totwidth@=\dimen194
+\lineht@=\dimen195
+\@envbody=\toks28
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box65
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen196
+\ttl@minus=\dimen197
+\ttl@toksa=\toks30
+\titlewidth=\dimen198
+\titlewidthlast=\dimen199
+\titlewidthfirst=\dimen256
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip65
+\f@nch@offset@elh=\skip66
+\f@nch@offset@erh=\skip67
+\f@nch@offset@olh=\skip68
+\f@nch@offset@orh=\skip69
+\f@nch@offset@elf=\skip70
+\f@nch@offset@erf=\skip71
+\f@nch@offset@olf=\skip72
+\f@nch@offset@orf=\skip73
+\f@nch@height=\skip74
+\f@nch@footalignment=\skip75
+\f@nch@widthL=\skip76
+\f@nch@widthC=\skip77
+\f@nch@widthR=\skip78
+\@temptokenb=\toks31
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count313
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen257
+\Hy@linkcounter=\count314
+\Hy@pagecounter=\count315
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count316
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count317
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen258
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count318
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count319
+\c@Item=\count320
+\c@Hfootnote=\count321
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box66
+\c@Hy@AnnotLevel=\count322
+\HyField@AnnotCount=\count323
+\Fld@listcount=\count324
+\c@bookmark@seq@number=\count325
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip79
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks32
+\verbatim@line=\toks33
+\verbatim@in@stream=\read2
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 49.
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(2)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=cyrl;language=dflt;mapping=tex-text;"
+
+
+
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 78.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 78.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 78.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 78.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 78.
+LaTeX Font Info:    Redeclaring math accent \check on input line 78.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 78.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 78.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 78.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 7
+8.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 78.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+78.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+78.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 78.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/b/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/b/n on input line 78.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 469.47049pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 78.
+
+(./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+ (./chapters/frontmatter.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (0.19292pt too wide) in paragraph at lines 29--35
+ []
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 62--64
+\TU/TimesNewRoman(2)/m/n/12 Разработать единый экспериментальный стенд сравнени
+я baseline-стратегий, статисти-
+ []
+
+
+
+[1
+
+]
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\TU/TimesNewRoman(2)/m/n/12 Наименование раздела или
+ []
+
+
+Overfull \hbox (5.25194pt too wide) in paragraph at lines 106--106
+ []|\TU/TimesNewRoman(2)/m/n/12 Трудоемкость 
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 106--106
+[]|\TU/TimesNewRoman(2)/m/n/12 Выполнено на
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 106--106
+[]|\TU/TimesNewRoman(2)/m/n/12 Согласовано с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\TU/TimesNewRoman(2)/m/n/12 Реализация загрузки дан-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\TU/TimesNewRoman(2)/m/n/12 ных, генерации признаков,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\TU/TimesNewRoman(2)/m/n/12 baseline-стратегий и ML-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\TU/TimesNewRoman(2)/m/n/12 Реализовано
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\TU/TimesNewRoman(2)/m/n/12 на языке
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 106--106
+[]|\TU/TimesNewRoman(2)/m/n/12 Проведено те-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\TU/TimesNewRoman(2)/m/n/12 Итоговое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\TU/TimesNewRoman(2)/m/n/12 оформление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\TU/TimesNewRoman(2)/m/n/12 Задание принял к исполнению
+ []
+
+
+Overfull \hbox (35.56593pt too wide) in paragraph at lines 126--127
+[][] 
+ []
+
+
+
+[3]
+
+[4]
+
+[5]
+Underfull \hbox (badness 1400) in paragraph at lines 210--212
+\TU/TimesNewRoman(2)/m/n/14.4 ОБУЧЕНИЕ С ПОДКРЕПЛЕНИЕМ, БИРЖЕВЫЕ КОТИРОВКИ, АЛГ
+О-
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 210--212
+\TU/TimesNewRoman(2)/m/n/14.4 ШИННОЕ ОБУЧЕНИЕ, ФИНАНСОВЫЕ МЕТРИКИ, EQUITY CURVE
+,
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 217--219
+\TU/TimesNewRoman(2)/m/n/14.4 экспериментального стенда, в котором baseline-стр
+атегии, ML-модели и
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 220--222
+\TU/TimesNewRoman(2)/m/n/14.4 рядов, реализацию стратегий \TU/TimesNewRoman(2)/
+m/it/14.4 Buy & Hold \TU/TimesNewRoman(2)/m/n/14.4 и \TU/TimesNewRoman(2)/m/it/
+14.4 Moving Average Crossover\TU/TimesNewRoman(2)/m/n/14.4 ,
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 223--82
+\TU/TimesNewRoman(2)/m/n/14.4 Результаты экспериментального моделирования показ
+ывают, что RL-
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 223--82
+\TU/TimesNewRoman(2)/m/n/14.4 от функции вознаграждения, набора признаков и рын
+очного режима. В
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 223--82
+\TU/TimesNewRoman(2)/m/n/14.4 риск-скорректированный результат по сравнению с р
+ядом альтернатив,
+ []
+
+
+
+[6]
+
+[7] (./main.toc
+Underfull \hbox (badness 2735) in paragraph at lines 5--5
+ [] [][]\TU/TimesNewRoman(2)/b/n/14.4 АНАЛИЗ ПРЕДМЕТНОЙ ОБЛАСТИ И СУЩЕСТВУЮЩИХ 
+
+ []
+
+
+Overfull \hbox (5.59103pt too wide) in paragraph at lines 11--11
+ [][] [][]\TU/TimesNewRoman(2)/m/n/14.4 Обзор аналогов и существующих решений: 
+FinRL, TensorTrade, 
+ []
+
+
+
+[8
+
+])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+
+[9] (./chapters/terms.tex
+Underfull \hbox (badness 2452) in paragraph at lines 11--12
+[]\TU/TimesNewRoman(2)/m/n/14.4 OHLCV-данные — формат представления рыночной ин
+формации,
+ []
+
+) (./chapters/abbreviations.tex
+
+[10
+
+
+])
+
+[11
+
+] (./chapters/introduction.tex
+
+[1
+
+
+]
+
+[2]
+Underfull \hbox (badness 1189) in paragraph at lines 22--23
+[]\TU/TimesNewRoman(2)/m/n/14.4 реализовать модуль подготовки OHLCV-данных, мод
+уль генерации
+ []
+
+
+
+[3]) (./chapters/chapter1.tex
+
+[4]
+Underfull \hbox (badness 1383) in paragraph at lines 10--11
+\TU/TimesNewRoman(2)/m/n/14.4 черкнуть полезность большого числа корректных про
+гнозов. Например,
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 10--11
+\TU/TimesNewRoman(2)/m/n/14.4 стратегия может правильно предсказывать большую д
+олю небольших
+ []
+
+
+
+[5
+
+]
+
+[6]
+
+[7]
+
+[8]
+Underfull \hbox (badness 1057) in paragraph at lines 46--47
+\TU/TimesNewRoman(2)/m/n/14.4 при этом исследователь во многом зависит от архит
+ектурных решений,
+ []
+
+
+
+[9] (./tables/analogs_comparison.tex
+Overfull \hbox (33.94757pt too wide) in alignment at lines 3--8
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (33.94757pt too wide) in alignment at lines 8--12
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(2)/m/n/12 baseline-
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(2)/m/n/12 Простота, прозрач-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\TU/TimesNewRoman(2)/m/n/12 ность, отражение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\TU/TimesNewRoman(2)/m/n/12 рыночного бета-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(2)/m/n/12 Не адаптируется к
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]|\TU/TimesNewRoman(2)/m/n/12 Базовый эталон
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+\TU/TimesNewRoman(2)/m/n/12 абсолютной до-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TimesNewRoman(2)/m/n/12 Moving
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/TimesNewRoman(2)/m/n/12 Average
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TimesNewRoman(2)/m/n/12 техническая
+ []
+
+
+Overfull \hbox (8.5875pt too wide) in paragraph at lines 15--15
+[]|\TU/TimesNewRoman(2)/m/n/12 Интерпретируемость,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/TimesNewRoman(2)/m/n/12 вычислительная
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 15--15
+\TU/TimesNewRoman(2)/m/n/12 к параметрам окна,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]|\TU/TimesNewRoman(2)/m/n/12 Сопоставление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\TU/TimesNewRoman(2)/m/n/12 RL с простым
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\TU/TimesNewRoman(2)/m/n/12 правилом на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 ARIMA /
+ []
+
+
+Overfull \hbox (12.62889pt too wide) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 статистическое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 прогнозиро-
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Формальный аппа-
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 рат, интерпретиру-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 емые параметры,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 удобство для ли-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Плохо описывает
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(2)/m/n/12 Logistic
+ []
+
+
+Overfull \hbox (2.45702pt too wide) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(2)/m/n/12 классическое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(2)/m/n/12 Ограниченная
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 19--19
+\TU/TimesNewRoman(2)/m/n/12 нелинейность, зави-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]|\TU/TimesNewRoman(2)/m/n/12 Базовая ML-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\TU/TimesNewRoman(2)/m/n/12 модель для би-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\TU/TimesNewRoman(2)/m/n/12 ансамблевое
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 21--21
+[]|\TU/TimesNewRoman(2)/m/n/12 Работа с нелиней-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\TU/TimesNewRoman(2)/m/n/12 ми, устойчивость
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\TU/TimesNewRoman(2)/m/n/12 к шуму, малая
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 21--22
+[]|\TU/TimesNewRoman(2)/m/n/12 Сравнение с ли-
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 21--22
+\TU/TimesNewRoman(2)/m/n/12 нейной моделью
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(2)/m/n/12 Gradient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(2)/m/n/12 ансамблевое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(2)/m/n/12 Высокая гиб-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/TimesNewRoman(2)/m/n/12 аппроксимация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/TimesNewRoman(2)/m/n/12 сложных законо-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(2)/m/n/12 Требовательность к
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 23--23
+\TU/TimesNewRoman(2)/m/n/12 настройке, чувстви-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]|\TU/TimesNewRoman(2)/m/n/12 Сильный ML-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(2)/m/n/12 базис в экспе-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(2)/m/n/12 риментальном
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(2)/m/n/12 CatBoost /
+ []
+
+
+Overfull \hbox (1.2324pt too wide) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(2)/m/n/12 градиентный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(2)/m/n/12 Высокое качество
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 25--25
+\TU/TimesNewRoman(2)/m/n/12 на табличных дан-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/TimesNewRoman(2)/m/n/12 ных, эффективная
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 25--25
+\TU/TimesNewRoman(2)/m/n/12 работа с признака-
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(2)/m/n/12 Выше вычислитель-
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 25--25
+\TU/TimesNewRoman(2)/m/n/12 димость тщательно-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]|\TU/TimesNewRoman(2)/m/n/12 Аналог продви-
+ []
+
+
+Overfull \hbox (5.45116pt too wide) in paragraph at lines 27--27
+[]|\TU/TimesNewRoman(2)/m/n/12 нейросетевые
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\TU/TimesNewRoman(2)/m/n/12 Учет последова-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\TU/TimesNewRoman(2)/m/n/12 моделирование
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 27--27
+\TU/TimesNewRoman(2)/m/n/12 временной зависи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\TU/TimesNewRoman(2)/m/n/12 Чувствительность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\TU/TimesNewRoman(2)/m/n/12 к объему данных,
+ []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 27--27
+\TU/TimesNewRoman(2)/m/n/12 сложность настрой-
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 27--27
+\TU/TimesNewRoman(2)/m/n/12 ки, риск нестабиль-
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 27--28
+\TU/TimesNewRoman(2)/m/n/12 го обучения для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\TU/TimesNewRoman(2)/m/n/12 RL-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\TU/TimesNewRoman(2)/m/n/12 алгоритм
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 29--29
+[]|\TU/TimesNewRoman(2)/m/n/12 Обучение дискрет-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\TU/TimesNewRoman(2)/m/n/12 ным действиям,
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 29--29
+\TU/TimesNewRoman(2)/m/n/12 прямое связывание
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 29--29
+\TU/TimesNewRoman(2)/m/n/12 состояния и торго-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\TU/TimesNewRoman(2)/m/n/12 Нестабильность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\TU/TimesNewRoman(2)/m/n/12 при плохой reward
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\TU/TimesNewRoman(2)/m/n/12 function, чувстви-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]|\TU/TimesNewRoman(2)/m/n/12 RL-аналог с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+\TU/TimesNewRoman(2)/m/n/12 дискретным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+\TU/TimesNewRoman(2)/m/n/12 пространством
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\TU/TimesNewRoman(2)/m/n/12 RL-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/TimesNewRoman(2)/m/n/12 алгоритм
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 31--31
+[]|\TU/TimesNewRoman(2)/m/n/12 Устойчивое обнов-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/TimesNewRoman(2)/m/n/12 ление политики,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/TimesNewRoman(2)/m/n/12 хорошая практи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/TimesNewRoman(2)/m/n/12 ческая примени-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/TimesNewRoman(2)/m/n/12 мость, удобство
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/TimesNewRoman(2)/m/n/12 для continuous
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 31--31
+\TU/TimesNewRoman(2)/m/n/12 мость обучения, за-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|\TU/TimesNewRoman(2)/m/n/12 Основной RL-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\TU/TimesNewRoman(2)/m/n/12 алгоритм для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\TU/TimesNewRoman(2)/m/n/12 сравнения риск-
+ []
+
+
+Overfull \hbox (8.26183pt too wide) in paragraph at lines 31--32
+\TU/TimesNewRoman(2)/m/n/12 скорректированной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\TU/TimesNewRoman(2)/m/n/12 Более компактная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\TU/TimesNewRoman(2)/m/n/12 альтернатива PPO,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\TU/TimesNewRoman(2)/m/n/12 обучает политику
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\TU/TimesNewRoman(2)/m/n/12 и value function
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\TU/TimesNewRoman(2)/m/n/12 Меньшая устойчи-
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 33--33
+\TU/TimesNewRoman(2)/m/n/12 с PPO на шумных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]|\TU/TimesNewRoman(2)/m/n/12 Рассматривается
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 33--34
+\TU/TimesNewRoman(2)/m/n/12 как альтернатив-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\TU/TimesNewRoman(2)/m/n/12 Готовые среды,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\TU/TimesNewRoman(2)/m/n/12 примеры RL-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\TU/TimesNewRoman(2)/m/n/12 трейдинга, акцент
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\TU/TimesNewRoman(2)/m/n/12 Сильная зависи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\TU/TimesNewRoman(2)/m/n/12 сценариев, слож-
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 35--36
+[]|\TU/TimesNewRoman(2)/m/n/12 Аналог исследо-
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 35--36
+\TU/TimesNewRoman(2)/m/n/12 вательской плат-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(2)/m/n/12 Модульная архи-
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(2)/m/n/12 Повышенный порог
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(2)/m/n/12 входа, необходи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(2)/m/n/12 мость глубокой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]|\TU/TimesNewRoman(2)/m/n/12 Аналог кон-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\TU/TimesNewRoman(2)/m/n/12 структорного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\TU/TimesNewRoman(2)/m/n/12 gym-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\TU/TimesNewRoman(2)/m/n/12 библиотека
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\TU/TimesNewRoman(2)/m/n/12 Простота, совме-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/TimesNewRoman(2)/m/n/12 стимость с Gym,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/TimesNewRoman(2)/m/n/12 быстрое прототи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\TU/TimesNewRoman(2)/m/n/12 Ограниченная гиб-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/TimesNewRoman(2)/m/n/12 простая рыночная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]|\TU/TimesNewRoman(2)/m/n/12 Аналог мини-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\TU/TimesNewRoman(2)/m/n/12 малистичной
+ []
+
+
+Overfull \hbox (33.94757pt too wide) in alignment at lines 12--41
+ [] [] [] [] [] 
+ []
+
+[10] [11]) (./tables/methods_overview.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Входные дан-
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Основной кри-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Baseline-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Цена закры-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 тия, скользя-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Финансовые
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 метрики стра-
+ []
+
+
+Overfull \hbox (1.80681pt too wide) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Статистические
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Ряд цен или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Ошибка про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 гноза и при-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 быльность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 стратегии на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Классические
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Табличные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 признаки
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 на основе
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 OHLCV и
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Класс направления движения или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 ML-метрики
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 и финансовые
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 метрики после
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 конвертации
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 прогноза в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Нейросетевые
+ []
+
+
+Overfull \hbox (28.99797pt too wide) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Последовательности
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 наблюдений,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 лаги, индика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Ошибка про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 гноза, устой-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 чивость и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 финансовый
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Окно призна-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 ков, позиция,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(2)/m/n/12 Накопленная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 награда и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 финансовые
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\TU/TimesNewRoman(2)/m/n/12 метрики стра-
+ []
+
+)
+
+[12]
+
+[13]) (./chapters/chapter2.tex
+
+[14]
+
+[15
+
+]
+File: figures/architecture_experimental_stand.png Graphic file (type bmp)
+<figures/architecture_experimental_stand.png>
+
+Underfull \hbox (badness 2134) in paragraph at lines 33--34
+\TU/TimesNewRoman(2)/m/n/14.4 Finance, доступ к которому осуществляется через б
+иблиотеку \TU/TimesNewRoman(2)/m/it/14.4 yfinance\TU/TimesNewRoman(2)/m/n/14.4 
+.
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 33--34
+\TU/TimesNewRoman(2)/m/n/14.4 Такой выбор обусловлен несколькими причинами. Во-
+первых, источник
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 33--34
+\TU/TimesNewRoman(2)/m/n/14.4 интегрируется в Python-пайплайн без промежуточных
+ ручных преобра-
+ []
+
+
+
+[16]
+
+[17]
+
+[18]
+Underfull \hbox (badness 1803) in paragraph at lines 88--89
+[]\TU/TimesNewRoman(2)/m/n/14.4 В качестве простейших аналогов в стенд включены
+ две baseline-
+ []
+
+
+
+[19]
+
+[20]
+Underfull \hbox (badness 1275) in paragraph at lines 104--105
+\TU/TimesNewRoman(2)/m/it/14.4 rolling_mean_20\TU/TimesNewRoman(2)/m/n/14.4 , \
+TU/TimesNewRoman(2)/m/it/14.4 rolling_std_10\TU/TimesNewRoman(2)/m/n/14.4 , \TU
+/TimesNewRoman(2)/m/it/14.4 rolling_std_20\TU/TimesNewRoman(2)/m/n/14.4 , \TU/T
+imesNewRoman(2)/m/it/14.4 rsi_14\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRom
+an(2)/m/it/14.4 macd\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(2)/m/it/1
+4.4 macd_signal\TU/TimesNewRoman(2)/m/n/14.4 ,
+ []
+
+File: figures/rl_environment_scheme.png Graphic file (type bmp)
+<figures/rl_environment_scheme.png>
+
+
+[21]
+
+[22] (./tables/metrics_overview.tex
+Underfull \hbox (badness 2351) in paragraph at lines 12--13
+[]|\TU/TimesNewRoman(2)/m/n/12 Доля правильно классифицированных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[]|\TU/TimesNewRoman(2)/m/n/12 Гармоническое среднее Precision и
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 24--25
+[]|\TU/TimesNewRoman(2)/m/n/12 Доходность, приведенная к годовому
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]|\TU/TimesNewRoman(2)/m/n/12 Годовая волатильность доходности
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 28--29
+[]|\TU/TimesNewRoman(2)/m/n/12 Соотношение избыточной доходности
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 30--31
+[]|\TU/TimesNewRoman(2)/m/n/12 Максимальная историческая просадка
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 32--33
+[]|\TU/TimesNewRoman(2)/m/n/12 Доля прибыльных торговых периодов
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 34--35
+[]|\TU/TimesNewRoman(2)/m/n/12 Интенсивность торговли и косвенный
+ []
+
+)
+
+[23]
+Underfull \hbox (badness 2426) in paragraph at lines 137--138
+[]\TU/TimesNewRoman(2)/m/n/14.4 Использование единого набора метрик, представле
+нного в табли-
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 137--138
+\TU/TimesNewRoman(2)/m/n/14.4 це []3[], является ключевым условием корректного 
+сравнения. В реализо-
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 137--138
+\TU/TimesNewRoman(2)/m/n/14.4 ванном программном обеспечении для торговых страт
+егий рассчиты-
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 137--138
+\TU/TimesNewRoman(2)/m/n/14.4 ваются \TU/TimesNewRoman(2)/m/it/14.4 total_retur
+n\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(2)/m/it/14.4 annualized_retu
+rn\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(2)/m/it/14.4 annualized_vol
+atility\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(2)/m/it/14.4 sharpe_ra
+tio\TU/TimesNewRoman(2)/m/n/14.4 ,
+ []
+
+
+
+[24]) (./chapters/chapter3.tex
+
+[25]
+Underfull \hbox (badness 2057) in paragraph at lines 8--9
+[]\TU/TimesNewRoman(2)/m/n/14.4 Выбранный стек ориентирован на локальный запуск
+ на ноутбуке
+ []
+
+(./tables/project_modules.tex
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(2)/m/n/12 Получение исторических котировок
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/TimesNewRoman(2)/m/n/12 через \TU/TimesNewRoman(1)/m/n/12 yfinance\TU/Times
+NewRoman(2)/m/n/12 , сохранение OHLCV-
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(2)/m/n/12 Вычисление доходностей, скользящих
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(2)/m/n/12 Реализация Buy & Hold и Moving
+ []
+
+
+Overfull \hbox (9.84523pt too wide) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(1)/m/n/12 src/models/ml_models.py| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(1)/m/n/12 src/rl/train_dqn.py\TU/TimesNewRoman(2)/m/n/12 ,
+
+ []
+
+
+Overfull \hbox (40.46632pt too wide) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(1)/m/n/12 src/metrics/financial_metrics.py| 
+ []
+
+
+Overfull \hbox (6.50539pt too wide) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(1)/m/n/12 src/visualization/plots.py| 
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 25--25
+\TU/TimesNewRoman(2)/m/n/12 ми, equity curve, drawdown и сравни-
+ []
+
+)
+
+[26
+
+]
+Underfull \hbox (badness 1077) in paragraph at lines 20--21
+\TU/TimesNewRoman(2)/m/n/14.4 ке, сформированной во второй главе. Каждый этап и
+сследования имеет
+ []
+
+
+
+[27]
+Underfull \hbox (badness 1014) in paragraph at lines 34--35
+[]\TU/TimesNewRoman(2)/m/n/14.4 Отдельное значение имеет функция временного раз
+биения данных
+ []
+
+
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]\TU/TimesNewRoman(2)/m/n/14.4 В каталоге \TU/TimesNewRoman(1)/m/n/14.4 src/st
+rategies/ \TU/TimesNewRoman(2)/m/n/14.4 реализованы две benchmark-стратегии:
+ []
+
+
+Overfull \hbox (2.38261pt too wide) in paragraph at lines 44--45
+\TU/TimesNewRoman(2)/m/n/14.4 торов: \TU/TimesNewRoman(1)/m/n/14.4 LogisticRegr
+ession\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(1)/m/n/14.4 RandomFores
+tClassifier \TU/TimesNewRoman(2)/m/n/14.4 и \TU/TimesNewRoman(1)/m/n/14.4 Gradi
+entBoostingClassifier\TU/TimesNewRoman(2)/m/n/14.4 .
+ []
+
+
+
+[29]
+Overfull \hbox (4.58986pt too wide) in paragraph at lines 50--51
+[]\TU/TimesNewRoman(2)/m/n/14.4 Центральным элементом RL-части является модуль 
+\TU/TimesNewRoman(1)/m/n/14.4 src/rl/trading_env.py\TU/TimesNewRoman(2)/m/n/14.
+4 ,
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 50--51
+\TU/TimesNewRoman(2)/m/n/14.4 транзакционные издержки и длину окна наблюдений. 
+На выходе среда
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 56--57
+\TU/TimesNewRoman(1)/m/n/14.4 src/rl/train_dqn.py \TU/TimesNewRoman(2)/m/n/14.4
+ и \TU/TimesNewRoman(1)/m/n/14.4 src/rl/train_ppo.py\TU/TimesNewRoman(2)/m/n/14
+.4 . Оба скрипта загружают подготов-
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 56--57
+\TU/TimesNewRoman(2)/m/n/14.4 ленный CSV, выбирают признаки, делят данные по вр
+емени, создают
+ []
+
+
+
+[30]
+Overfull \hbox (10.73933pt too wide) in paragraph at lines 62--63
+\TU/TimesNewRoman(2)/m/n/14.4 оценки торговых стратегий: \TU/TimesNewRoman(1)/m
+/n/14.4 total_return\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(1)/m/n/14
+.4 annualized_return\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(1)/m/n/14
+.4 annualized_volatility\TU/TimesNewRoman(2)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (17.79453pt too wide) in paragraph at lines 68--69
+[]\TU/TimesNewRoman(2)/m/n/14.4 Для интерпретации экспериментов создан модуль \
+TU/TimesNewRoman(1)/m/n/14.4 src/visualization/plots.py\TU/TimesNewRoman(2)/m/n
+/14.4 ,
+ []
+
+
+
+[31]) (./chapters/chapter4.tex
+
+[32]
+Underfull \hbox (badness 5862) in paragraph at lines 10--11
+[]\TU/TimesNewRoman(2)/m/n/14.4 Сравнение проводилось между несколькими классам
+и подходов:
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 12--13
+\TU/TimesNewRoman(2)/m/n/14.4 сформированные в рамках исследовательского стенда
+ и предназначен-
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 12--13
+\TU/TimesNewRoman(2)/m/n/14.4 окончательной торговой системы и не должны интерп
+ретироваться вне
+ []
+
+
+
+[33
+
+] (./tables/instruments.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(2)/m/n/12 Крупный технологический эмитент,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(2)/m/n/12 ПАО «Сбер-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(2)/m/n/12 Представитель российского рынка,
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 13--13
+\TU/TimesNewRoman(2)/m/n/12 иной режим волатильности и иной
+ []
+
+)
+
+[34]
+File: figures/price_with_signals_example.png Graphic file (type bmp)
+<figures/price_with_signals_example.png>
+
+
+[35] (./tables/ml_metrics_results.tex
+Underfull \hbox (badness 10000) in alignment at lines 13--13
+[][][][][][] 
+ []
+
+)
+Underfull \hbox (badness 1418) in paragraph at lines 51--52
+\TU/TimesNewRoman(2)/m/n/14.4 каторов в рамках экспериментального моделирования
+ оказался \TU/TimesNewRoman(2)/m/it/14.4 Gradient
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 51--52
+\TU/TimesNewRoman(2)/m/n/14.4 и ROC-AUC, что свидетельствует о сравнительно луч
+шей способности
+ []
+
+
+
+[36]
+Underfull \hbox (badness 1655) in paragraph at lines 59--60
+\TU/TimesNewRoman(2)/m/n/14.4 периментального моделирования он уступил стратеги
+и Buy & Hold по
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 59--60
+\TU/TimesNewRoman(2)/m/n/14.4 абсолютной суммарной доходности, но оказался силь
+нее по ряду риск-
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 65--66
+\TU/TimesNewRoman(2)/m/n/14.4 она переводит модели разных классов в общее прост
+ранство торгового
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 65--66
+\TU/TimesNewRoman(2)/m/n/14.4 вались \TU/TimesNewRoman(2)/m/it/14.4 total_retur
+n\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(2)/m/it/14.4 annualized_retu
+rn\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(2)/m/it/14.4 annualized_vol
+atility\TU/TimesNewRoman(2)/m/n/14.4 , \TU/TimesNewRoman(2)/m/it/14.4 sharpe_ra
+tio\TU/TimesNewRoman(2)/m/n/14.4 ,
+ []
+
+(./tables/financial_results.tex
+
+[37])
+File: figures/equity_curves_comparison.png Graphic file (type bmp)
+<figures/equity_curves_comparison.png>
+
+
+[38]
+File: figures/drawdown_example.png Graphic file (type bmp)
+<figures/drawdown_example.png>
+
+
+[39]
+
+[40]) (./chapters/conclusion.tex
+
+[41]
+Underfull \hbox (badness 4492) in paragraph at lines 5--6
+\TU/TimesNewRoman(2)/m/n/14.4 позволяющего корректно сравнивать baseline-страте
+гии, статистические
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 11--12
+\TU/TimesNewRoman(2)/m/n/14.4 модуль формирования OHLCV-датасета и признаков, м
+одуль baseline-
+ []
+
+
+
+[42
+
+]
+Underfull \hbox (badness 1342) in paragraph at lines 19--20
+[]\TU/TimesNewRoman(2)/m/n/14.4 PPO оказался наиболее устойчивым из реализованн
+ых RL-агентов
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 19--20
+\TU/TimesNewRoman(2)/m/n/14.4 по совокупности риск-скорректированных метрик, то
+гда как DQN
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 19--20
+\TU/TimesNewRoman(2)/m/n/14.4 проявил большую чувствительность к параметрам сре
+ды и reward
+ []
+
+
+
+[43]
+Underfull \hbox (badness 3769) in paragraph at lines 26--27
+\TU/TimesNewRoman(2)/m/n/14.4 CatBoost/XGBoost, LSTM/GRU и A2C в основной экспе
+риментальный
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 26--27
+\TU/TimesNewRoman(2)/m/n/14.4 валидации, моделирование проскальзывания и более 
+сложных торговых
+ []
+
+) (./chapters/references.tex
+
+[44]
+Overfull \hbox (15.49432pt too wide) in paragraph at lines 16--17
+[]\TU/TimesNewRoman(2)/m/n/14.4 Hochreiter S., Schmidhuber J. Long Short-Term M
+emory // Neural Computation.
+ []
+
+
+Overfull \hbox (10.85974pt too wide) in paragraph at lines 17--18
+[]\TU/TimesNewRoman(2)/m/n/14.4 Cho K., Van Merriënboer B., Gulcehre C. et al. 
+Learning Phrase Representations
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 19--20
+[]\TU/TimesNewRoman(2)/m/n/14.4 Friedman J.H. Greedy Function Approximation: A 
+Gradient Boosting
+ []
+
+
+
+[45
+
+]
+Underfull \hbox (badness 1715) in paragraph at lines 20--21
+[]\TU/TimesNewRoman(2)/m/n/14.4 Pedregosa F., Varoquaux G., Gramfort A. et al. 
+Scikit-learn: Machine
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 22--23
+[]\TU/TimesNewRoman(2)/m/n/14.4 McKinney W. Data Structures for Statistical Com
+puting in Python //
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 25--26
+[]\TU/TimesNewRoman(2)/m/n/14.4 Towers M., Terry J.K., Kwiatkowski A. et al. Gy
+mnasium // GitHub
+ []
+
+
+Overfull \hbox (17.98352pt too wide) in paragraph at lines 25--26
+\TU/TimesNewRoman(2)/m/n/14.4 repository. URL: https://gymnasium.farama.org/ (д
+ата обращения: 28.04.2026). 
+ []
+
+
+Overfull \hbox (23.83243pt too wide) in paragraph at lines 27--28
+[]\TU/TimesNewRoman(2)/m/n/14.4 The TensorTrade Authors. TensorTrade Documentat
+ion. URL: https://tensortrade-
+ []
+
+
+Overfull \hbox (33.7627pt too wide) in paragraph at lines 28--29
+[]\TU/TimesNewRoman(2)/m/n/14.4 AminHP. gym-anytrading Documentation. URL: http
+s://github.com/AminHP/gym-
+ []
+
+
+Overfull \hbox (95.81932pt too wide) in paragraph at lines 29--30
+[]\TU/TimesNewRoman(2)/m/n/14.4 Yahoo Finance API via yfinance Documentation. U
+RL: https://github.com/ranaroussi/yfinance
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 31--32
+[]\TU/TimesNewRoman(2)/m/n/14.4 Lo A.W., MacKinlay A.C. A Non-Random Walk Down 
+Wall Street.
+ []
+
+
+
+[46]) (./chapters/appendix_a.tex
+
+[47]
+
+[48
+
+])
+Underfull \hbox (badness 1642) in paragraph at lines 54--103
+\TU/TimesNewRoman(2)/m/n/14.4 вычислительного эксперимента и позволяет последов
+ательно расширять
+ []
+
+
+
+[49] (./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6D8F5DB46E463466FAB0025A63878C38;15894.
+ ) 
+Here is how much of TeX's memory you used:
+ 16534 strings out of 473832
+ 327097 string characters out of 5729482
+ 803350 words of memory out of 5000000
+ 39263 multiletter control sequences out of 15000+600000
+ 566937 words of font info for 128 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 79i,13n,93p,1010b,610s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (60 pages).

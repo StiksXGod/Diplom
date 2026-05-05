@@ -1,0 +1,104 @@
+\documentclass[14pt,a4paper]{extarticle}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+\newfontfamily\cyrillicfonttt{Times New Roman}
+
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+
+\usepackage{geometry}
+\geometry{left=30mm,right=15mm,top=20mm,bottom=20mm}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{float}
+\usepackage{caption}
+\DeclareCaptionLabelSeparator{emdash}{~---~}
+\captionsetup{labelsep=emdash,justification=centering,singlelinecheck=false}
+\captionsetup[table]{position=top}
+
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{chngcntr}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{verbatim}
+
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0}
+}
+
+\renewcommand{\textbf}[1]{#1}
+
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\contentsname}{СОДЕРЖАНИЕ}
+
+\titleformat{\section}
+  {\normalfont\centering}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont}
+  {\thesubsection}
+  {1em}
+  {}
+
+\titlespacing*{\section}{0pt}{18pt}{12pt}
+\titlespacing*{\subsection}{\parindent}{12pt}{6pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+
+\pagestyle{empty}
+\input{chapters/frontmatter}
+
+\clearpage
+\pagestyle{empty}
+\tableofcontents
+
+\clearpage
+\input{chapters/terms}
+\input{chapters/abbreviations}
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{fancy}
+\input{chapters/introduction}
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+\input{chapters/chapter4}
+\input{chapters/conclusion}
+\input{chapters/references}
+\input{chapters/appendix_a}
+
+\end{document}

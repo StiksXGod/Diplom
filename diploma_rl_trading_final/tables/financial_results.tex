@@ -1,0 +1,28 @@
+\begin{center}
+\scriptsize
+\begin{longtable}{|p{3.2cm}|c|c|c|c|c|c|c|}
+\caption{Сравнение подходов по финансовым метрикам}\label{tab:financial_results}\\
+\hline
+\textbf{Подход} & \textbf{Total Return} & \textbf{Annualized Return} & \textbf{Volatility} & \textbf{Sharpe Ratio} & \textbf{Max Drawdown} & \textbf{Win Rate} & \textbf{Trades} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Подход} & \textbf{Total Return} & \textbf{Annualized Return} & \textbf{Volatility} & \textbf{Sharpe Ratio} & \textbf{Max Drawdown} & \textbf{Win Rate} & \textbf{Trades} \\
+\hline
+\endhead
+Buy \& Hold & 0.462 & 0.104 & 0.228 & 0.46 & -0.310 & 0.521 & 1 \\
+\hline
+Moving Average & 0.271 & 0.067 & 0.151 & 0.44 & -0.182 & 0.543 & 28 \\
+\hline
+Logistic Regression & 0.189 & 0.049 & 0.117 & 0.42 & -0.145 & 0.556 & 63 \\
+\hline
+Random Forest & 0.256 & 0.063 & 0.114 & 0.55 & -0.131 & 0.572 & 48 \\
+\hline
+Gradient Boosting & 0.314 & 0.076 & 0.122 & 0.62 & -0.124 & 0.587 & 41 \\
+\hline
+DQN & 0.287 & 0.069 & 0.163 & 0.43 & -0.179 & 0.534 & 96 \\
+\hline
+PPO & 0.348 & 0.083 & 0.129 & 0.68 & -0.108 & 0.591 & 37 \\
+\hline
+\end{longtable}
+\end{center}

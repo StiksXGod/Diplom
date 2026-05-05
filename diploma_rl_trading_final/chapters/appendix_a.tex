@@ -1,0 +1,54 @@
+\clearpage
+\section*{ПРИЛОЖЕНИЕ А}
+\addcontentsline{toc}{section}{ПРИЛОЖЕНИЕ А}
+
+\begin{flushright}
+\textbf{Приложение А}
+\end{flushright}
+
+\begin{center}
+\textbf{СТРУКТУРА ПРОГРАММНОГО ПРОЕКТА И ПРИМЕРЫ ЗАПУСКА}
+\end{center}
+
+В приложении приведена укрупненная структура программного проекта, разработанного в рамках настоящей выпускной квалификационной работы.
+
+\begin{verbatim}
+diploma_rl_trading/
+├── data/
+├── notebooks/
+├── src/
+│   ├── data/
+│   ├── strategies/
+│   ├── models/
+│   ├── rl/
+│   ├── metrics/
+│   └── visualization/
+├── reports/
+├── requirements.txt
+└── main.py
+\end{verbatim}
+
+Назначение ключевых элементов структуры:
+\begin{enumerate}[leftmargin=1.25cm,label=\arabic*)]
+\item каталог \texttt{data/} используется для хранения исходных и обработанных котировок;
+\item каталог \texttt{notebooks/} предназначен для исследовательских записных книжек и промежуточного анализа;
+\item каталог \texttt{src/} содержит основную логику системы, разбитую по функциональным модулям;
+\item каталог \texttt{reports/} служит для сохранения метрик, таблиц, графиков и прочих результатов экспериментов;
+\item файл \texttt{requirements.txt} фиксирует зависимости проекта;
+\item файл \texttt{main.py} запускает полный сравнительный pipeline.
+\end{enumerate}
+
+Ниже приведены примеры команд, использованных в рамках экспериментального моделирования:
+
+\begin{verbatim}
+python3 main.py --ticker AAPL --start_date 2018-01-01 --end_date 2024-01-01 \
+  --initial_cash 10000 --transaction_cost 0.001 --random_state 42
+
+python3 src/rl/train_ppo.py --data_path data/processed/aapl_features.csv \
+  --ticker AAPL --timesteps 20000 --initial_cash 10000 --transaction_cost 0.001
+
+python3 src/rl/train_dqn.py --data_path data/processed/aapl_features.csv \
+  --ticker AAPL --timesteps 15000 --initial_cash 10000 --transaction_cost 0.001
+\end{verbatim}
+
+Представленная структура проекта обеспечивает воспроизводимость вычислительного эксперимента и позволяет последовательно расширять стенд за счет новых признаков, алгоритмов и сценариев оценки.

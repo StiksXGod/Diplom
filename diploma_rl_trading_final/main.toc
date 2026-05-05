@@ -1,0 +1,51 @@
+\xpg@aux {}{russian}
+\contentsline {section}{ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ}{}{}
+\contentsline {section}{ПЕРЕЧЕНЬ СОКРАЩЕНИЙ И ОБОЗНАЧЕНИЙ}{}{}
+\contentsline {section}{ВВЕДЕНИЕ}{1}{Item.5}%
+\contentsline {section}{\numberline {1}АНАЛИЗ ПРЕДМЕТНОЙ ОБЛАСТИ И СУЩЕСТВУЮЩИХ АНАЛОГОВ}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Особенности биржевых котировок как временных рядов}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Классические методы прогнозирования финансовых временных рядов}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Методы машинного обучения для прогнозирования котировок}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Нейросетевые модели для анализа временных рядов}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Обучение с подкреплением в задачах алгоритмической торговли}{8}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Обзор аналогов и существующих решений: FinRL, TensorTrade, gym-anytrading}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Сравнительная таблица аналогов}{10}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Постановка проблемы и выводы по главе}{13}{subsection.1.8}%
+\contentsline {section}{\numberline {2}ПРОЕКТИРОВАНИЕ МЕТОДА И ЭКСПЕРИМЕНТАЛЬНОГО СТЕНДА}{15}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Общая архитектура исследования}{15}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Источники данных и структура OHLCV-данных}{16}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Предобработка данных}{17}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Формирование признаков: доходности, скользящие средние, RSI, MACD, Bollinger Bands, волатильность}{18}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Формирование целевых переменных для ML-моделей}{19}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Baseline-стратегии: Buy \& Hold и Moving Average Crossover}{19}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Постановка задачи обучения с подкреплением}{20}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Описание состояния, действий и функции вознаграждения RL-агента}{21}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Метрики оценки качества моделей и стратегий}{22}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Выводы по главе}{25}{subsection.2.10}%
+\contentsline {section}{\numberline {3}РЕАЛИЗАЦИЯ ПРОГРАММНОГО РЕШЕНИЯ}{26}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Выбор инструментов разработки}{26}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Структура программного проекта}{26}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Модуль загрузки и подготовки данных}{28}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Модуль генерации признаков}{28}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Реализация baseline-стратегий}{29}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Реализация ML-моделей}{29}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Реализация торговой RL-среды}{30}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Обучение RL-агентов DQN и PPO}{30}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Модуль расчета финансовых метрик}{31}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Модуль визуализации результатов}{31}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Выводы по главе}{32}{subsection.3.11}%
+\contentsline {section}{\numberline {4}ЭКСПЕРИМЕНТАЛЬНОЕ ИССЛЕДОВАНИЕ}{33}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Описание экспериментальных условий}{33}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Используемые биржевые инструменты}{34}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Сравнение baseline-стратегий}{35}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Результаты ML-моделей}{35}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Результаты RL-агентов}{36}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Сравнение всех подходов по финансовым метрикам}{37}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Анализ доходности}{38}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Анализ риска и максимальной просадки}{39}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Анализ устойчивости стратегий}{40}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Ограничения проведенного исследования}{40}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Выводы по главе}{41}{subsection.4.11}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{42}{subsection.4.11}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{45}{Item.26}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А}{48}{Item.54}%

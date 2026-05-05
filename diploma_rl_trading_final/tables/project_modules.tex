@@ -1,0 +1,26 @@
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{|p{4cm}|p{4cm}|X|}
+\hline
+\textbf{Модуль} & \textbf{Файл / каталог} & \textbf{Назначение} \\
+\hline
+Загрузка данных & \texttt{src/data/download.py} & Получение исторических котировок через \texttt{yfinance}, сохранение OHLCV-наборов в CSV \\
+\hline
+Генерация признаков & \texttt{src/data/features.py} & Вычисление доходностей, скользящих средних, RSI, MACD, Bollinger Bands и целевых переменных \\
+\hline
+Baseline-стратегии & \texttt{src/strategies/} & Реализация Buy \& Hold и Moving Average Crossover \\
+\hline
+ML-модели & \texttt{src/models/ml\_models.py} & Обучение классификаторов, оценка качества и конвертация прогнозов в торговые сигналы \\
+\hline
+RL-среда & \texttt{src/rl/trading\_env.py} & Торговая среда Gymnasium с действиями hold, buy, sell и reward по изменению портфеля \\
+\hline
+Обучение агентов & \texttt{src/rl/train\_dqn.py}, \texttt{src/rl/train\_ppo.py} & Подготовка сценариев обучения и тестирования RL-агентов \\
+\hline
+Финансовые метрики & \texttt{src/metrics/financial\_metrics.py} & Расчет доходности, волатильности, коэффициента Шарпа, просадки и других показателей \\
+\hline
+Визуализация & \texttt{src/visualization/plots.py} & Построение графиков цены с сигналами, equity curve, drawdown и сравнительных диаграмм \\
+\hline
+Оркестрация эксперимента & \texttt{main.py} & Запуск полного pipeline исследования и сохранение результатов в \texttt{reports/} \\
+\hline
+\end{tabularx}
+\end{center}
